@@ -1,4 +1,4 @@
-﻿borough_code,borough,straight_or_heterosexual,lgbtq,total,percentage
+﻿borough_code,name,straight_or_heterosexual,lgbtq,total,percentage
 E09000001,City of London,6348,826,7174,11.51379983
 E09000002,Barking and Dagenham,143275,3690,146965,2.510801892
 E09000003,Barnet,269986,8633,278619,3.098496513
@@ -32,3 +32,4 @@ E09000030,Tower Hamlets,210070,18127,228197,7.943575069
 E09000031,Waltham Forest,191049,10046,201095,4.995648823
 E09000032,Wandsworth,236553,14184,250737,5.65692339
 E09000033,Westminster,147855,9727,157582,6.172659314
+
