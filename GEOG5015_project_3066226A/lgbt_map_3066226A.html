@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>GEOG5015_Project_3066226A</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang='en'>
+  <head>
+    <meta charset='utf-8' /> 
+    <title>LGBTQ+ Population in London</title> 
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.18.0/mapbox-gl.js'></script> 
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.18.0/mapbox-gl.css' rel='stylesheet' /> 
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-glgeocoder/v5.1.0/mapbox-gl-geocoder.min.js'>
+    </script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-glgeocoder/v5.1.0/mapbox-gl-geocoder.css' type='text/css' />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="sidebar">
+      <h1><center>LGBTQ+ Map of London</h1>
+  <h2>About this map</h2>
+  <p>
+  This is an interactive web map providing information about the LGBTQ+ population of London boroughs and queer venues in London.
+  </p>
+  <p>
+    Hover over London boroughs to find out their LGBTQ+ population.
+  </p>
+  <p>
+    Click on venues for more information.
+  </p>
+        <h6>Map created by 3066226A. Data from London Datastore and Office for National Statistics.</h6>
+</div>
+    <div id='map'></div>
+    <div class="map-overlay" id="features"> 
+      <div><h2>LGBTQ+ Population in London Boroughs</h2></div>
+      <div id="lb">
+        <h3>Hover over a London borough!</h3>
+      </div>
+          </div>
+    <div class="map-overlay" id="legend">
+      <div><b>Legend</b></div>
+  <div class="legend-bar"></div>
+  <div class="legend-labels">
+    <span>2</span>
+    <span>4</span>
+    <span>6</span>
+    <span>8</span>
+    <span>10</span>
+    <span>12</span>
+  </div>
+      <div>LGBTQ+ population (%)</div>
+</div>
+        
+      </div>
+        
+      </body>
+        
+      </html>
+    <script type="module" src="./script.js"></script>
+
+  </body>
+  
+</html>
